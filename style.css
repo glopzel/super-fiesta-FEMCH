@@ -37,13 +37,6 @@ body {
     color: white;
 }
 
-h1 {
-    margin: 0;
-    font-size: 2rem;
-    font-family: var(--title-font-fam);
-    color: hsl(0, 0%, 95%);
-}
-
 p {
     margin-bottom: 7vmin;
 }
@@ -71,6 +64,10 @@ p, a {
 }
 
 .headers {
+    margin: 0;
+    font-size: 2rem;
+    font-family: var(--title-font-fam);
+    color: hsl(0, 0%, 95%);
     align-self: center;
 }
 
