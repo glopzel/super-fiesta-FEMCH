@@ -29,7 +29,8 @@ body {
 }
 
 .container > * {
-    min-height: 466px;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
     width: 20vw;
     padding: 5vmin;
     color: white;
