@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    max-height: fit-content;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 95%);
+}
+
+:root {
+    --text-font-fam: 'Lexend Deca', sans-serif;
+    --title-font-fam:'Big Shoulders Display', cursive;
+    --yellow: hsl(31, 77%, 52%);
+    --dark-cyan:hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-bottom: 10vmin;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container > * {
+    width: 20vw;
+    padding: 5vmin;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 5vmin;
+    font-size: 2rem;
+    font-family: var(--title-font-fam);
+    color: hsl(0, 0%, 95%);
+}
+
+.container a {
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    padding: 2vmin 5vmin;
+    background: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+    border-radius: 50px;
+}
+
+p, a {
+    font-family: var(--text-font-fam);
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10vmin;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#first {
+    background: var(--yellow);
+}
+
+#first a {
+    color: var(--yellow);
+}
+
+#first a:hover {
+    background: var(--yellow);
+}
+
+#mid {
+    background: var(--dark-cyan);
+}
+
+#mid a {
+    color: var(--dark-cyan);
+}
+
+#mid a:hover {
+    background: var(--dark-cyan);
+}
+
+#bottom {
+    background: var(--very-dark-cyan);
+}
+
+#bottom a {
+    color: var(--very-dark-cyan);
+}
+
+#bottom a:hover {
+    background: var(--very-dark-cyan)
+}
+
+#first a:hover, #mid a:hover, #bottom a:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+footer {
+    justify-self: flex-end;
+    padding: 5vmin;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 620px) {
+    .container {
+        display: block;
+        
+    }
+
+    .container > * {
+        width: 80vw;
+        padding: 8vmin 13vmin;
+    }
+
+    .container a {
+        width: fit-content;
+        padding: 2vmin 4vmin;
+        text-align: center;
+    }
+}
