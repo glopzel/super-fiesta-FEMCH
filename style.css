@@ -21,7 +21,8 @@ body {
 }
 
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
     margin-bottom: 10vmin;
     border-radius: 10px;
     overflow: hidden;
