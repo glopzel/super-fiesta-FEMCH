@@ -137,7 +137,6 @@ p {
 footer {
     justify-self: flex-end;
     padding: 5vmin;
-    background: rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 620px) {
