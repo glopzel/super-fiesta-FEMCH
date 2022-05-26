@@ -29,6 +29,7 @@ body {
 }
 
 .container > * {
+    min-height: 466px;
     width: 20vw;
     padding: 5vmin;
     color: white;
