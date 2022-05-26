@@ -10,8 +10,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
   - [The challenge](#the-challenge)
 
-  - [Screenshot](#screenshot)
-
   - [Links](#links)
 
 - [My process](#my-process)
@@ -30,9 +28,6 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
-
-![](./screenshot.jpg)
 
 ### Links
 
